@@ -1,16 +1,19 @@
-package java.model;
+package orglogger.model;
 
 public class Login {
 
     private String username;
     private String password;
+    private String url;
     
-    public Login (String username, String password){
+    public Login (String username, String password, String url){
         this.setPassword(password);
         this.setUsername(username);
+        this.setUrl(url);
+        
     }
     public Login (){
-        this(null, null);
+        this(null, null, null);
     }
 
     public String getUsername() {
@@ -27,6 +30,12 @@ public class Login {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+    public String getUrl() {
+        return url;
+    }
+    public void setUrl(String url) {
+        this.url = url;
     }
     
     

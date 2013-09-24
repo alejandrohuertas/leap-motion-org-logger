@@ -1,4 +1,4 @@
-package java.util;
+package orglogger.util;
 import java.io.*;
 
 /** JDK 6 or before. */
@@ -79,12 +79,4 @@ public class ReadWriteTextFile {
     }
   }
 
-  /** Simple test harness.   */
-  public static void main (String... aArguments) throws IOException {
-    File testFile = new File("C:\\Temp\\blah.txt");
-    System.out.println("Original file contents: " + getContents(testFile));
-    
-    //setContents(testFile, "The content of this file has been overwritten...");
-    System.out.println("New file contents: " + getContents(testFile));
-  }
 } 
