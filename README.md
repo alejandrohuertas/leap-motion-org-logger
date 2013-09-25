@@ -4,6 +4,7 @@ leap-motion-org-logger
 Leap Motion integration with java in order to log into an org using gestures
 
 Instructions to run jar file
+----------------------------
 /project_root>java -Djava.library.path="lib/x86" -jar orgLoggerRunnable.jar
 
 
