@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args){
         
-        File testFile = new File("C:\\Temp\\blah.txt");
+        File testFile = new File(System.getProperty("user.dir")+"\\resources\\loginInfo.txt");
         // Create a sample listener and controller
         String unparsedLoginsTest = ReadWriteTextFile .getContents(testFile);
         SalesforceLoginsInputParser parser = new SalesforceLoginsInputParser();
