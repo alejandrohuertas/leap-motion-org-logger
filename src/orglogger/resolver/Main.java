@@ -2,14 +2,10 @@ package orglogger.resolver;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 import orglogger.leapmotion.LeapController;
-import orglogger.model.Login;
-import orglogger.util.BrowserLauncher;
 import orglogger.util.ReadWriteTextFile;
 import orglogger.util.SalesforceLoginsInputParser;
-
 
 import com.leapmotion.leap.Controller;
 

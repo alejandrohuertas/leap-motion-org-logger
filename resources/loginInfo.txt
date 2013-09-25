@@ -1,0 +1,4 @@
+URL, USERNAME, PASSWORD
+https://www.salesforce.com, usernameForAnOrg, password1
+https://test.salesforce.com, usernameForASandbox, password2
+
